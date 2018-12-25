@@ -44,4 +44,3 @@ class Brioche extends Bread {
         return 250;
     }
 }
-
