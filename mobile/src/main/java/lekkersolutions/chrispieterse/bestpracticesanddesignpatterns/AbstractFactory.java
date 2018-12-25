@@ -48,3 +48,20 @@ class FactoryGenerator {
         }
     }
 }
+
+class SandwichBuilder {
+    // Off the shelf sandwich
+    public static Sandwich readyMade() {
+        Sandwich sandwich = new Sandwich();
+        sandwich.addIngredient(new Baguette());
+        sandwich.addIngredient(new Lettuce());
+        sandwich.addIngredient(new Tomato());
+        return sandwich;
+    }
+
+    // Customized sandwich
+    public static Sandwich build(Sandwich s, Ingredient i) {
+        s.addIngredient(i);
+        return s;
+    }
+}
