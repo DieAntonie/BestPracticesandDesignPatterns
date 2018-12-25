@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">Best Practices and Design Patterns</string>
-    <string name="sandwich_png_description">Image of a sandwich</string>
+    <string name="alternative_text">Image of a delicious sandwich</string>
     <string name="filling">Mexican</string>
-    <string name="filling_description">Looks like something yummie!</string>
+    <string name="filling_description">Looks like something yummy!</string>
     <string name="calories">500</string>
     <string name="action">ADD</string>
 </resources>
